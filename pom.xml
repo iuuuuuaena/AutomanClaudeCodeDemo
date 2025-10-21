@@ -12,7 +12,7 @@
     <packaging>jar</packaging>
 
     <name>automan-claude-code-demo</name>
-    <description>AutomanClaudeCodeDemo project based on Spring Boot 3.1 and JDK 17</description>
+    <description>AutomanClaudeCodeDemo project based on Spring Boot 3.1 and JDK 21</description>
 
     <!-- 父项目 Spring Boot -->
     <parent>
@@ -25,9 +25,9 @@
     <!-- 属性配置 -->
     <properties>
         <!-- 1. JDK 版本配置 -->
-        <java.version>17</java.version>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <java.version>21</java.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -110,8 +110,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>17</source>
-                    <target>17</target>
+                    <source>21</source>
+                    <target>21</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
